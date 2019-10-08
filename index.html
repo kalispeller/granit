@@ -58,8 +58,8 @@
     <div class="container">
       <form action="thank-you.html">
         <legend>Получите прайс прямо сейчас<br>на электронную почту!</legend>
-        <input type="email" placeholder="Введите ваш e-mail">
-        <input type="phone" placeholder="Введите ваш телефон">
+        <input required type="email" placeholder="Введите ваш e-mail">
+        <input required type="phone" placeholder="Введите ваш телефон">
         <div class="desc">
           <span>Прайс придет к Вам на почту<br>в течение 5 минут!</span>
           <img src="img/clock.png" alt="clock">
@@ -99,13 +99,36 @@
       <h2>Ищете конкретную деталь?</h2>
       <p>Если у Вас есть артикул - введите его в поле ниже и получите цену<br>ПРЯМО СЕЙЧАС!</p>
       <form action="thank-you.html">
-        <input type="text" placeholder="Введите артикул детали">
-        <input type="text" placeholder="Введите ваш телефон">
+        <input required type="text" placeholder="Введите артикул детали">
+        <input required type="text" placeholder="Введите ваш телефон">
         <button type="submit" class="btn btn-yellow">Узнать цену</button>
       </form>
       <span>Мы перезвоним вам в течение 3 минут и назовем цену детали!</span>
       <span>Или Вы можете перезвонить нам сами:</span>
       <span class="phone">+7 (818) 247-47-25</span>
+    </div>
+  </section>
+  <section class="discount" id="discount">
+    <div class="container discount-container">
+      <h2>У нас разработаны бонусные системы <br> и скидки для наших клиентов</h2>
+      <div class="discount-item-wrap">
+        <div class="discount-item">
+          <div class="img img-1"></div>
+          <p>Дополнительная скидка 10% на вторую запчасть и любые последующие</p>
+        </div>
+        <div class="discount-item">
+          <div class="img img-2"></div>
+          <p>Скидка 20% при заключении договора на годовое сервисное обслуживание</p>
+        </div>
+        <div class="discount-item">
+          <div class="img img-3"></div>
+          <p>Бесплатная доставка по всей России для всех клиентов</p>
+        </div>
+        <div class="discount-item">
+          <div class="img img-4"></div>
+          <p>Бесплатная круглосуточная техническая поддержка</p>
+        </div>
+      </div>
     </div>
   </section>
 </body>
